@@ -16,4 +16,5 @@ public class LoginScreen {
         return userCredentials.containsKey(username) && userCredentials.get(username).equals(password);
     }
 }
-javadoc -d doc -sourcepath src -subpackages . -author -version
+
+//javadoc -d doc -sourcepath src -subpackages . -author -version
